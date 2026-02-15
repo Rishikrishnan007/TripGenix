@@ -1,16 +1,37 @@
-# TripGenix
+# Trip Genix - AI and ML Based Tourist Recommendation System
 
-This is a project for an AI/ML tourist recommendation system.
+## Project Description
+Trip Genix is an innovative tourist recommendation system powered by artificial intelligence and machine learning. This project aims to enhance the travel experience by providing personalized travel recommendations based on user preferences and behaviors.
 
-## Directory Structure
+## Features Overview
+- Personalized travel itinerary generation
+- User-friendly interface
+- Integration with various travel APIs
+- Machine learning algorithms for accurate recommendations
+- Real-time data processing for up-to-date information
 
-- `tripgenix/`
-  - `__init__.py`
-  - `main.py`
-  - `recommendation.py`
-- `requirements.txt`
+## Tech Stack
+- **Python**: The primary programming language used for application development.
+- **Flask**: A lightweight web application framework for building web applications.
+- **scikit-learn**: A machine learning library for Python, used for implementing ML algorithms.
+- **TensorFlow**: An open-source library for numerical computation and machine learning, used for deep learning models.
 
-## Usage
-
-1. Install the required packages.
-2. Run the main application with Python.
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YourUsername/tripgenix.git
+   cd tripgenix
+   ```
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use 'venv\Scripts\activate'
+   ```
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the application:
+   ```bash
+   python app.py
+   ```
